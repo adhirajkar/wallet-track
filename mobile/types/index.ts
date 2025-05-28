@@ -1,8 +1,8 @@
 
 export interface SummaryType {
-    balance:number,
-    income:number,
-    expenses:number
+    balance:string,
+    income:string,
+    expense:string
 }
 
 export interface TransactionType {
