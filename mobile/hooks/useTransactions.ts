@@ -3,7 +3,7 @@ import React, { useCallback } from "react"
 import { useState } from "react"
 import { Alert } from "react-native"
 
-const API_URL = 'http://localhost:8000/api'
+const API_URL = 'https://wallet-track-4qbs.onrender.com/api'
 export const useTransactions = (userId:string) => {
     const [summary, setSummary] = useState<SummaryType>({
         balance:0,
